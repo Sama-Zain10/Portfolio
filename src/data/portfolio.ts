@@ -180,13 +180,15 @@ export const projects: ProjectItem[] = [
     tech: ["NestJS", "TypeScript", "Socket.IO"],
     github: "https://github.com/Sama-Zain/E-commerce",
   },
+
+
   {
     name: "SkillBridge",
     description: "Full-stack freelance marketplace with a provider dashboard.",
     bullets: [
       "Collaborated with a 2-person team on a full-stack platform (React/Vite frontend, .NET Core backend), shipping a provider dashboard managing 3+ order lifecycle stages.",
     ],
-    tech: ["React", "Vite", "ASP.NET Core", "SQL Server"],
+    tech: ["React", "Vite", "ASP.NET Core", "SQL Server","SQL"],
     live: "https://skill-bridge-phi-one.vercel.app",
     githubPlaceholder: true, // TODO: Add GitHub link for SkillBridge
   },
