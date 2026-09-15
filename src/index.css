@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  @apply bg-base-950 text-ink-100 font-body antialiased;
+}
+
+::selection {
+  background: rgba(139, 123, 255, 0.35);
+  color: #f2f3fb;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #06070d;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a3155;
+  border-radius: 999px;
+  border: 2px solid #06070d;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a4275;
+}
+
+.focus-ring {
+  @apply outline-none focus-visible:ring-2 focus-visible:ring-accent-violet/70 focus-visible:ring-offset-2 focus-visible:ring-offset-base-950;
+}
+
+.section-container {
+  @apply mx-auto w-full max-w-5xl px-6 sm:px-8;
+}
