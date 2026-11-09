@@ -17,7 +17,7 @@ export const personal = {
   email: "smasyd237@gmail.com",
   phone: "+20 114 672 3454",
   linkedin: "https://linkedin.com/in/sama-sayed-801189386",
-  github: "https://github.com/Sama-Zain",
+  github: "https://github.com/Sama-Zain10",
   resumeFile: "Sama_Sayed_Zain_Resume.pdf", // TODO: Add the actual CV file to /public and confirm this filename
   summary:
     "Software Engineering student at Helwan University (GPA 3.5/4.0, expected May 2027) with practical experience in full-stack and backend development using Node.js, Express.js, NestJS, React.js, and MongoDB. Completed 100+ hours of backend training with top honors (98% score). Proven track record in API design, database architecture, team collaboration, and technical mentoring.",
@@ -160,7 +160,7 @@ export const projects: ProjectItem[] = [
       "Implemented bcrypt hashing and AES-256-CBC encryption for user data protection alongside optimized Mongoose schemas.",
     ],
     tech: ["Node.js", "Express", "MongoDB", "Mongoose", "bcrypt", "AES-256-CBC"],
-    github: "https://github.com/Sama-Zain/Sara7a_App",
+    github: "https://github.com/Sama-Zain10/Sara7a-app",
   },
   {
     name: "Social Media ",
@@ -169,7 +169,7 @@ export const projects: ProjectItem[] = [
       "Engineered a scalable TypeScript/Express/MongoDB backend handling user sessions, authentication, and database modeling.",
     ],
     tech: ["TypeScript", "Express", "MongoDB"],
-    github: "https://github.com/Sama-Zain/Social-Media",
+    github: "https://github.com/Sama-Zain10/social-media-Backend",
   },
   {
     name: "E-Commerce Platform ",
@@ -178,7 +178,7 @@ export const projects: ProjectItem[] = [
       "Built a modular NestJS/TypeScript backend integrating Socket.IO for real-time order processing and instant notification pipelines.",
     ],
     tech: ["NestJS", "TypeScript", "Socket.IO"],
-    github: "https://github.com/Sama-Zain/E-commerce",
+    github: "https://github.com/Sama-Zain10/E-Commerce-Route",
   },
 
 
@@ -190,7 +190,7 @@ export const projects: ProjectItem[] = [
     ],
     tech: ["React", "Vite", "ASP.NET Core", "SQL Server","SQL"],
     live: "https://skill-bridge-phi-one.vercel.app",
-    githubPlaceholder: true, // TODO: Add GitHub link for SkillBridge
+    github: "https://github.com/Sama-Zain10/SkillBridge",
   },
   {
     name: "Portal-Student",
@@ -200,7 +200,7 @@ export const projects: ProjectItem[] = [
       "Resolved a Git repository issue caused by an accidentally deleted .git folder and an embedded nested repository inside Frontend/studentPortal.",
     ],
     tech: ["React", "JavaScript"],
-    github: "https://github.com/Sama-Zain/Portal-Student",
+    github: "https://github.com/Sama-Zain10/Student-portal-Management",
   },
   {
     name: "Library Management System",
@@ -209,7 +209,7 @@ export const projects: ProjectItem[] = [
       "Built a full-stack library management system with a React frontend and Spring Boot backend for managing books, users, and borrowing.",
     ],
     tech: ["React", "Java", "Spring Boot"],
-    github: "https://github.com/Sama-Zain/Library-_Management-_System-",
+    github: "https://github.com/Sama-Zain10/Library-Management-System",
   },
 ];
 
